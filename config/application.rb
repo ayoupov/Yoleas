@@ -38,5 +38,10 @@ module Yoleas
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    # add rac-openid entry
+
+    # config.middleware.use 'Rack::OpenID'
+
   end
 end

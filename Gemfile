@@ -7,6 +7,11 @@ gem 'rails', '3.0.5'
 
 gem 'sqlite3'
 
+# use openid gems
+
+gem "ruby-openid"
+gem "rack-openid"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
