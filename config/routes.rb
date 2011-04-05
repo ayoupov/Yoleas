@@ -1,6 +1,17 @@
 Yoleas::Application.routes.draw do
 
   resource :session
+  resources :posts
+  resource :home
+
+  resources :users do
+    resource :additional_info
+  end
+
+  get "home/index"
+
+  root :to => "home#index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

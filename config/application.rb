@@ -41,7 +41,7 @@ module Yoleas
 
     # add rac-openid entry
 
-    # config.middleware.use 'Rack::OpenID'
+    config.middleware.use 'Rack::OpenID'
 
   end
 end
