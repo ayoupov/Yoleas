@@ -12,6 +12,13 @@ gem 'sqlite3'
 gem "ruby-openid"
 gem "rack-openid"
 
+# i18n
+gem "rack-contrib"
+gem "russian"
+
+# lj support
+gem "livejournal"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

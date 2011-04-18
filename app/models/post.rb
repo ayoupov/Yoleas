@@ -9,5 +9,7 @@ class Post < ActiveRecord::Base
   validates :content, :presence => true,
                     :length => { :minimum => 5 }
 
+  attr_accessor :tags
+
 
 end

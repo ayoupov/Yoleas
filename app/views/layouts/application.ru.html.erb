@@ -20,7 +20,7 @@
       <tr>
         <td width="50%"></td>
         <td width="50%" style="text-align: right">
-          your thought fog remover
+          убиратель лишностей
         </td>
       </tr>
     </table>
@@ -38,9 +38,9 @@
 </div>
 <footer>
   <div class="signedInfo">
-    <% if signed_in? %>| <%= link_to 'Edit Info', edit_user_path(current_user) %>
-        | Logged in as <%= current_user.full_name %>
-        | <%= link_to 'Sign Out', session_path, :method => :delete %>
+    <% if signed_in? %>| <%= link_to 'Профиль', edit_user_path(current_user) %>
+        | В системе как: <%= current_user.full_name %>
+        | <%= link_to 'Выйти', session_path, :method => :delete %>
     <% end %></div>
   <div class="footerLegal">discovered by <a href="http://panaggelica.org">panaggelica</a></div>
 </footer>
